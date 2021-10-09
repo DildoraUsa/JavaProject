@@ -4,6 +4,7 @@ public class Animal {
     int age;
     String name;
     double weight;
+    double height;
 
     public Animal(int age, String name, double weight) {
         this.age = age;
@@ -33,6 +34,10 @@ public class Animal {
 
     public void setWeight(double weight) {
         this.weight = weight;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
     }
 
 

@@ -6,6 +6,7 @@ public class Student implements Comparable<Student>{
     String name;
     int id;
     boolean isOnline;
+    long badgeNo;
 
     public Student(String name, int id, boolean isOnline) {
         this.name = name;

@@ -6,6 +6,7 @@ public class Animal {
     double weight;
     double height;
   // Learning Git
+    //Lear more and more
     public Animal(int age, String name, double weight) {
         this.age = age;
         this.name = name;
